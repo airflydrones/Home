@@ -27,7 +27,7 @@ video {
   .Hero h1 {
     margin-left: 10vw;
     margin-right: 10vw;
-    margin-top: -10vh;
+    margin-top: -100vh;
     font-size: 26px; /* set font size to 36px */
     color: #333; /* set text color to dark gray */
     margin-bottom: 20px; /* add some margin below the heading */
