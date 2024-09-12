@@ -13,9 +13,6 @@ body {
     height: 60vh; /* or a fixed height */
 }
 
-.image-container {
-    flex: 1;
-}
 
 video {
     width: 100%;
