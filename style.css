@@ -10,8 +10,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 60vh; /* or a fixed height */
 }
 
+.image-container {
+    flex: 1;
+}
 
 video {
     width: 100%;
@@ -27,10 +31,10 @@ video {
   .Hero h1 {
     margin-left: 10vw;
     margin-right: 10vw;
-    margin-top: 0vh;
+    margin-top: -10vh;
     font-size: 26px; /* set font size to 36px */
     color: #333; /* set text color to dark gray */
-    margin-bottom: 10px; /* add some margin below the heading */
+    margin-bottom: 20px; /* add some margin below the heading */
   }
 
   .arrow {
@@ -64,7 +68,7 @@ video {
   .Content h1 {
     margin-left: 10%;
     margin-right: 10vw;
-    margin-top: 20px;
+    margin-top: 0px;
     font-size: 50px; /* set font size to 36px */
     color: #333; /* set text color to dark gray */
     margin-bottom: 20px; /* add some margin below the heading */
