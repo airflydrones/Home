@@ -10,7 +10,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 60vh; /* or a fixed height */
+    height: 10vh; /* or a fixed height */
 }
 
 
