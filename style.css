@@ -23,6 +23,21 @@ video {
     object-fit: cover;
 }
 
+.logo-video-container {
+  position: relative;
+  width: 100%; /* Make the container full width */
+  height: 100vh; /* Make the container full height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-video-container video {
+  width: 720px; /* Set the video width to 720px */
+  height: 720px; /* Set the video height to 720px */
+  object-fit: cover; /* Make the video cover the entire container */
+}
+
 .Hero {
     text-align: center; /* center align the hero text */
     font-family: 'SF Pro', sans-serif; /* use SF Pro font */
