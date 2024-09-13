@@ -18,7 +18,7 @@ body {
 .An_Logo video {
   width: 100%; /* Make the video full width */
   height: 100%; /* Make the video full height */
-  object-fit: cover; /* Make the video cover the entire container */
+  object-fit: contain; /* Make the video cover the entire container */
 }
 
 .Hero {
