@@ -8,8 +8,8 @@ body {
    
 .Logo {
   position: relative;
-  width: 100%; /* Make the container full width */
-  height: 100%; /* Make the container full height */
+  width: 10%; /* Make the container full width */
+  height: 10%; /* Make the container full height */
   display: flex;
   justify-content: center;
   align-items: center;
