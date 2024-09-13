@@ -443,7 +443,7 @@ ul{
 	position: absolute;
 	left:0;
 	bottom: -10px;
-	background-color: #e91e63;
+	background-color: #1ec1fb;
 	height: 2px;
 	box-sizing: border-box;
 	width: 50px;
@@ -488,6 +488,7 @@ ul{
 }
 .footerBottom p{
     color: white;
+	font-size: 8px;
 }
 
 /*responsive*/
