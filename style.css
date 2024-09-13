@@ -12,6 +12,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+	margin-bottom: 20px; /* add some margin below the heading */
 }
 
 .An_Logo video {
