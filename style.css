@@ -24,6 +24,7 @@ body {
   width: 100%; /* Make the video full width */
   height: 100%; /* Make the video full height */
   object-fit: cover; /* Make the video cover the entire container */
+transform: scale(0.5);
 }
 
 .Hero {
