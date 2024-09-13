@@ -417,161 +417,85 @@ h3{
 	margin-top: -50px;
 	font-family: 'SF Pro', sans-serif; /* use SF Pro font */
 }
- 
- header{
-	width:100%;
-	overflow:hidden;
-	height:90px;
-	background-color: black;
-	margin-top: -10px;
- }
- header nav{
-	margin-top:20px;
- }
- header nav ul{
-	list-style:none;
- }
- header nav ul li{
- 	padding-left: 10px;
- 	padding-right: 10px;
-	float:left;
-	overflow:hidden;
- }
- header nav ul li a{
-	text-decoration:none;
-	display:block;
-	padding:15px 13px;
-	text-transform:uppercase;
-	font-size:18px;
-	color:#ffffff;
-	font-style:normal;
- }
-  header nav ul li b{
-	text-decoration:left;
-	display:block;
-	padding-left: 30px;
-	padding-right: 400px;
-	text-transform:uppercase;
-	font-size:35px;
-	font-family: 'SF Pro', sans-serif; /* use SF Pro font */
-	color:blue;
- }
- header nav ul li a:hover, .active{
-	background:blue;
-	border-radius:3px;
- }
- .full{
-	 max-width:960px;
-	 margin:0 auto;
-	
-	 
- }
- .Contact-Form{
-	 width:100%;
-	 margin:0 auto;
-	 text-align:center;
-	 margin-top:50px;
- }
- .Contact-Form h2{
-	 color:#ffffff;
-	 text-transform:capitalize;
-	 margin-bottom:20px;
-	 font-size:30px;
- }
- .Contact-Form p{
-	 color:#9999B9;
-	 margin-bottom:50px;
- }
- .input-fields{
-	 width:45%;
-	 float:left;
-	 overflow:hidden;
-	 margin-right:30px;
-	 margin-top: 10px;
- }
- .input-fields input{
-	  width:354px;
-	  padding:15px 20px;
-	  margin-bottom:10px;
-	  border:0;
-	  border-radius:3px ;
-  }
- .msg{
-	 width:45%;
-	 overflow:hidden;
-	 margin-top: 0px;
- }
- .msg textarea{
-	 width:354px;
-	  padding:10px 20px;
-	  margin-bottom:20px;
-	  height:160px;
-	  border:0;
-	  border-radius:3px ;
-	  resize:none;
- }
- .Contact-Form button{
-	 padding:15px 20px;
-	 color:#ffffff;
-	 text-transform:uppercase;
-	 border:1px solid green;
-	 background:blue;
-	 cursor:pointer;
-	 border-radius:3px;
-	 margin-right: 40px;
-     margin-top: 15px;
- }
-  .Contact-Form button:hover{
-	border:1px solid blue;
-    color:#333;
-	background:none;
-  }
- .details{
-	 width: 300px;
-	 height:150px;
-	 color: black;
-	 background:white;
-	 padding:10px;
-	 float:left;
-	 overflow:hidden;
-	 margin-right:160px;
-	 margin-top:50px;
-	 border-radius:3px;
-	 margin-bottom:50px;
- }
- .details:last-child{
-	margin-right:0;
- }
- .details h3{
- 	padding-top: 60px;
-	 font-size:16px;
-	 color:black;
-	 font-style:normal;
-	 margin-left:10px;
-	 margin-bottom:20px;
-	 text-transform:uppercase;
-	 text-align:left;
-	 
- }
- .details p{
-	font-size:13px;
-	font-family: 'SF Pro', sans-serif; /* use SF Pro font */
-	 color:black;
-	 font-style:normal;
-	 margin:0;
-	 padding:0;
-	 text-align:left;
-	 text-transform:capitalize;
-	 margin-left:10px;
-	 margin-bottom:2px;
- }
-  footer{
- 	background-color: black;
- 	padding-bottom: 20px;
- 	padding-top: 20px;
- 	margin-top: 250px;
-    font-size: 10px;
- 	color: white;
- 	text-align: center
 
- }
+ footer{
+    background-color: #111;
+}
+.footerContainer{
+    width: 100%;
+    padding: 70px 30px 20px ;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding:  10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0,9;
+}
+/* Hover affect on social media icon */
+.socialIcons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.footerNav{
+    margin: 30px 0;
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footerNav ul li a{
+    color:white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+
+}
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+.footerBottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p{
+    color: white;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+@media (max-width: 700px){
+    .footerNav ul{
+        flex-direction: column;
+    } 
+    .footerNav ul li{
+        width:100%;
+        text-align: center;
+        margin: 10px;
+    }
+    .socialIcons a{
+        padding: 8px;
+        margin: 4px;
+    }
+}
