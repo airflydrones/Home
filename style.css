@@ -9,7 +9,7 @@ body {
 .Logo {
   position: relative;
   width: 100%; /* Make the container full width */
-  height: 100vh; /* Make the container full height */
+  height: 100%; /* Make the container full height */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,7 +19,6 @@ body {
   width: 100%; /* Make the video full width */
   height: 100%; /* Make the video full height */
   object-fit: cover; /* Make the video cover the entire container */
-	    transform: scale(-5.0);
 }
 
 .Hero {
