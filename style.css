@@ -75,10 +75,6 @@ body {
   color: #fff;
 }
 
-.navbar-icon:hover i {
-  transform: rotate(90deg);
-}
-
 .navbar ul {
   display: none; /* Hide the menu by default */
 }
