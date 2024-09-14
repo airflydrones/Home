@@ -5,7 +5,96 @@ body {
     padding: 0;
     background-color: #f2eff0;
    }
-   
+
+.navbar {
+  width: 100%; /* Make the container full width */
+  background-color: #1c1c1e;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar ul {
+  list-style: none;
+  gap: 25px;
+  display: flex;
+  flex-wrap: wrap; /* Add this to wrap the menu items */
+}
+
+.navbar ul li {
+  position: relative;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #fff;
+  transition: 0.3s ease;
+}
+
+.navbar ul li a::before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  left: 0;
+  bottom: -5px;
+  background-color: #10a37f;
+  transition: 0.3s ease;
+}
+
+.navbar ul li a:hover {
+  color: #10a37f;
+}
+
+.navbar ul li a:hover::before {
+  width: 100%;
+}
+
+/* Add the following styles for the mobile hamburger menu */
+
+.navbar {
+  position: relative; /* Add this to position the hamburger menu */
+}
+
+.navbar-icon {
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-color: #1c1c1e;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.navbar-icon i {
+  font-size: 20px;
+  color: #fff;
+}
+
+.navbar-icon:hover i {
+  transform: rotate(90deg);
+}
+
+.navbar ul {
+  display: none; /* Hide the menu by default */
+}
+
+.navbar-icon:target ~ ul {
+  display: block; /* Show the menu when the icon is targeted */
+}
+
+/* Add media query for mobile devices */
+
+@media (max-width: 768px) {
+  .navbar ul {
+    display: none; /* Hide the menu by default on mobile devices */
+  }
+}
+	
 .Logo {
   width: 100%; /* Make the container full width */
   height: 100%; /* Make the container full height */
